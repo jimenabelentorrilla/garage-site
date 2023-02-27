@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/***frame1583****/
+.header-flex{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 15px ;
+}
+.location-text{
+    font-family: 'IBM Plex Sans';
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.frame1583{
+    background-color: #1B294B;
+    height: 122px;
+    width: 1900px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+    padding: 26px;
+    
+}
+.logo{
+    width: 90px;
+}
+.menu{
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    width: 473px;
+    height: 70px;
+    gap: 30px;
+    
+}    
+    
+.menu li{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;   
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.tel-text{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 600;   
+    font-size: 26px;
+    line-height: 33px;
+    color: #FFFFFF;
+}
+
+/****frame 1511***/
+.frame1511{
+    width: 1900px;
+    height: 806px;
+    background: linear-gradient(89.4deg, rgba(3, 14, 40, 0.89) 28.75%, rgba(0, 0, 0, 0) 89.57%), url(./assets/Luxury_home.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding: 55px 220px;
+}
+.frame136{
+
+}
+.frame136 h1{
+    font-family: 'IBM Plex Sans';
+    font-weight: 700;
+    font-size: 45px;
+    color: #FFFFFF;
+}
+.frame136 p{
+    font-family: 'Caveat';
+    font-weight: 400;
+    font-size: 50px;
+    color: #FFFFFF;
+    
+}
+.ul-flex{
+    padding: 30px 0px;
+}
+.ellipse{
+    width: 15.72px;
+    height: 15.72px;
+    border-radius: 50%;
+    background-color: linear-gradient(129.65deg, #C4070D -116.6%, #F45359 104.91%);
+}
+.frame943{
+    text-decoration: none;
+    font-family: 'IBM Plex Sans';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 28px;
+    color: #FFFFFF;
+    height: 53px;
+}
+.frame1063{
+    width: 394px;
+    height: 75px;
+    padding: 15px;
+    gap:11px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    align-items: flex-start;
+    background-color: #F45359;
+}
+.frame1063 p{
+    font-family: 'IBM Plex Sans';
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 36px;
+    color: #FFFFFF;
+    height: 37px;
+}
