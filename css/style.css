@@ -48,6 +48,10 @@
     gap: 30px;
     align-items: center;
     margin-bottom: 0;
+    
+}
+.menu a{
+    text-decoration: none;
 }
 
 .menu li {
@@ -299,8 +303,14 @@ line-height: 35px;
 .frame951{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+}
+.frame919{
+    display: flex;
+    flex-direction: column;
+    height: 454px;
+    justify-content: space-between;
 }
 /***** row3 ******/
 .frame1183{
@@ -343,21 +353,11 @@ text-transform: capitalize;
     text-align: center;
     padding: 11px;
 }
-.frame1407-tns{
-    transition: .3s;
-    opacity: 0.66;
-    backdrop-filter: blur(0px);
-}
-.frame1407-tns:hover{
-    opacity: 1;
-    cursor: pointer;
-    backdrop-filter: none;
-    transform: scale(1.05);
-}
+
 .frame1407{
     width: 370px;
     height: 96px;
-    cursor: pointer;
+    
     background: #19243F;
 }
 .frame1407 p , .frame1407-red p{
@@ -371,8 +371,12 @@ text-transform: capitalize;
     color: #FFFFFF;
     padding: 19px 31px;
 }
-.frame1407-red{
-    background: linear-gradient(129.65deg, #C4070D -116.6%, #F45359 104.91%);
+.frame-cta{
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+    justify-content: center;
+    padding: 22px;
 }
 
 .frame1420{
@@ -380,7 +384,6 @@ text-transform: capitalize;
     flex-flow: row wrap;
     gap: 30px;
     width: 1170px;
-    cursor: pointer;
 }
 .frame1420-flex{
     display: flex;
@@ -388,7 +391,7 @@ text-transform: capitalize;
     padding: 25px;
 }
 .frame1174-flex{
-    height: 1395px;
+    height: 1445px;
 }
 
 /*****row5***/
@@ -400,11 +403,22 @@ text-transform: capitalize;
 }
 .frame1202{
     display: flex;
-    
+    transition: .3s;
+    opacity: 0.66;
+    backdrop-filter: blur(0px);
     align-items: center;
     justify-content: center;
     
 }
+.frame1202:hover{
+    opacity: 1;
+    cursor: pointer;
+    backdrop-filter: none;
+    transform: scale(1.05);
+}
+
+
+
 .play{
     position: absolute;
     cursor: pointer;
@@ -440,4 +454,108 @@ padding-bottom: 60px;
 }
 .modal-backdrop.show {
     opacity: .8;
+}
+/********row6*****/
+.frame760{
+    height: 437px;
+    background: linear-gradient(129.65deg, #C4070D -116.6%, #F45359 104.91%);
+}
+.frame761{
+    width: 485px;
+    height: 93px;
+    background: #FFFFFF;
+}
+.frame761 h3{
+font-family: 'IBM Plex Sans';
+font-weight: 600;
+font-size: 70px;
+line-height: 88px;
+color: #1D1818;
+text-align: center;
+}
+.frame761-txt{
+    display: flex;
+    flex-direction: column;
+    height: 437px;
+    justify-content:space-evenly;
+}
+.frame761-txt p{
+font-family: 'IBM Plex Sans';
+font-weight: 600;
+font-size: 22px;
+line-height: 28px;
+color: #FFFFFF;
+padding: 0px 60px
+}
+.frame761-bg{
+    font-size: 40px;
+    line-height: 61px;
+}
+
+/*******gallery*****/
+
+.gallery{
+    height: 1252px;
+    background-color: #19243F;
+}
+.gallery-txt{
+    padding: 97px 0px 40px 0px;
+}
+.gallery h2{
+    font-family: 'IBM Plex Sans';
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 88px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.gallery-flex{
+    display: flex;
+    flex-direction: column;
+    gap: 45.8px;
+}
+.gallery p{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    text-align: center;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+.img-wrap{
+    display: flex;
+    flex-flow: row wrap;
+    gap:45px;
+    padding: 0px 50px;
+}
+/************reviews2*******/
+.reviews2{
+    height: 1322px;
+    background-color: #EBF2FF;
+}
+.frame1523{
+    padding: 112px 0px 0px 0px;
+}
+.frame1523 h2{
+    font-family: 'IBM Plex Sans';
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 98px;
+    text-align: center;
+    color: #1D1818;
+}
+.frame1523 p{
+    font-family: 'IBM Plex Sans';
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 36px;
+    text-align: center;
+    color: #1D1818;
+}
+.frame1180{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
 }
